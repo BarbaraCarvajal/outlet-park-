@@ -39,8 +39,12 @@
   }
 
 .tiendas{
-    background-color: #c6a4da11
+    background-color: #f6edff
     ;
+}
+
+.panoramas{
+    background-color: #f6edff;
 }
 
 .titulos{
@@ -50,4 +54,19 @@
 
 .image-container{
     margin-top: 20px;
+}
+
+.mapa{
+    background-color: #f6edff;
+
+}
+
+
+.pie_pagina{
+    background-color: #3a328a;
+    color: #fff;
+}
+
+.pie_pagina h2 {
+    text-align: center;
 }
