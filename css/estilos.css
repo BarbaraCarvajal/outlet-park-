@@ -34,7 +34,7 @@
     transition: transform 0.3s ease; /* Agrego una transición suave al hacer zoom */
   }
   
-  .image-container:hover img {
+.image-container:hover img {
     transform: scale(1.1); /* Cambio la escala de la imagen al hacer hover */
   }
 
