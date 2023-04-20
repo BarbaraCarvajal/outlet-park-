@@ -1,18 +1,27 @@
-.navbar{
-    padding: 2rem;
+/* Estilo para la barra de navegación */
+.navegador{
+    margin-left: 8%; /* Margen izquierdo del 8% */
+    margin-right: 12%; /* Margen derecho del 12% */
 }
 
+/* Estilo para la marca del navegador */
 .navbar-brand{
-    color: black;
-    font-weight: bold;
+    color: black; /* Color del texto en negro */
+    font-weight: bold; /* Aplicar negrita */
 }
 
+/* Estilo para la sección de tiendas y panoramas */
+.tiendasYPanoramas{
+    background-color: #f6edff; /* Color de fondo en #f6edff */
+}
 
+/* Estilo para el contenedor de imagen */
 .image-container {
     position: relative;
     overflow: hidden; /* Para asegurar que el texto no se desborde de la imagen */
-  }
-  
+}
+
+/* Estilo para la superposición de texto en la imagen */
 .text-overlay {
     position: absolute;
     top: 0;
@@ -22,51 +31,75 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: #fff; /* Color del texto en blanco */
     font-size: 18px;
     font-weight: bold;
-    transition: opacity 0.3s ease; /* Agrego una transición de opacidad para un efecto suave */
+    transition: opacity 0.3s ease; /* Transición de opacidad para efecto suave */
 }
 
-  
+/* Estilo para la imagen dentro del contenedor */
 .image-container img {
-    transition: transform 0.3s ease; /* Agrego una transición suave al hacer zoom */
-  }
-  
+    transition: transform 0.3s ease; /* Transición suave al hacer zoom */
+}
+
+/* Estilo para la imagen al hacer hover */
 .image-container:hover img {
-    transform: scale(1.1); /* Cambio la escala de la imagen al hacer hover */
-  }
-
-.tiendas{
-    background-color: #f6edff
-    ;
+    transform: scale(1.1); /* Cambio de escala al hacer hover */
 }
 
-.panoramas{
-    background-color: #f6edff;
-}
-
+/* Estilo para los títulos */
 .titulos{
+    margin-top: 1%;
     margin-left: 1%;
-    color: rgb(37, 37, 37);
+    color: rgb(37, 37, 37); /* Color del texto en rgb(37, 37, 37) */
 }
 
+/* Estilo para el contenedor de imagen con margen superior */
 .image-container{
     margin-top: 20px;
 }
 
+/* Estilo para la sección del mapa */
 .mapa{
-    background-color: #f6edff;
-
+    background-color: #f6edff; /* Color de fondo en #f6edff */
 }
 
-
+/* Estilo para la sección del pie de página */
 .pie_pagina{
-    background-color: #3a328a;
-    color: #fff;
+    background-color: #3a328a; /* Color de fondo en #3a328a */
+    color: #fff; /* Color del texto en blanco */
 }
 
+/* Estilo para los títulos del pie de página */
 .pie_pagina h2 {
-    text-align: center;
+    text-align: center; /* Alineación centrada del texto */
+}
+
+/* Estilo para la sección de locomoción */
+.locomocion{
+    background-color: #3a328a; /* Color de fondo en #3a328a */
+    color: white; /* Color del texto en blanco */
+}
+
+/* Estilo para el título del pie de página */
+.titulo-footer{
+    text-align: center; /* Alineación centrada del texto */
+}
+
+/* Estilo para las imágenes del pie de página con padding superior */
+.imagenes-footer{
+    padding-top: 2%;
+}
+
+/* Estilo para la sección de contacto */
+.contacto{
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilo para la sección de horario */
+
+.horario{
+    text-align: left;
+    
 }
